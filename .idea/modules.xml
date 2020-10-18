@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-zgd-demo.iml" filepath="$PROJECT_DIR$/spring-boot-zgd-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-zgd01-helloworld/spring-boot-zgd01-helloworld.iml" filepath="$PROJECT_DIR$/spring-boot-zgd01-helloworld/spring-boot-zgd01-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-zgd02-configuration/spring-boot-zgd02-configuration.iml" filepath="$PROJECT_DIR$/spring-boot-zgd02-configuration/spring-boot-zgd02-configuration.iml" />
+    </modules>
+  </component>
+</project>
