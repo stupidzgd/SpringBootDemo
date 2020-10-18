@@ -4,6 +4,11 @@
       "name": "food",
       "type": "com.zgd.config.FoodConfig",
       "sourceType": "com.zgd.config.FoodConfig"
+    },
+    {
+      "name": "vegetables",
+      "type": "com.zgd.config.VegetablesConfig",
+      "sourceType": "com.zgd.config.VegetablesConfig"
     }
   ],
   "properties": [
@@ -16,6 +21,21 @@
       "name": "food.rice",
       "type": "java.lang.String",
       "sourceType": "com.zgd.config.FoodConfig"
+    },
+    {
+      "name": "vegetables.eggplant",
+      "type": "java.lang.String",
+      "sourceType": "com.zgd.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.greenpepper",
+      "type": "java.lang.String",
+      "sourceType": "com.zgd.config.VegetablesConfig"
+    },
+    {
+      "name": "vegetables.potato",
+      "type": "java.lang.String",
+      "sourceType": "com.zgd.config.VegetablesConfig"
     }
   ],
   "hints": []

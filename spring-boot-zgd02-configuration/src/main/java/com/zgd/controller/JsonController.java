@@ -1,7 +1,9 @@
 package com.zgd.controller;
 
 import com.zgd.bean.Food;
+import com.zgd.bean.Vegetables;
 import com.zgd.config.FoodConfig;
+import com.zgd.config.VegetablesConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -30,11 +32,23 @@ public class JsonController {
     @Autowired
     private FoodConfig foodConfig;
 
+    @Autowired
+    private VegetablesConfig vegetablesConfig;
+
     @RequestMapping("/json")
     public Food json() {
         Food food = new Food();
         food.setMeat(foodConfig.getMeat());
         food.setRice(foodConfig.getRice());
         return food;
+    }
+
+    @RequestMapping("/vegetables")
+    public Vegetables vegetables() {
+        Vegetables vegetables = new Vegetables();
+        vegetables.setEggplant(vegetablesConfig.getEggplant());
+        vegetables.setPotato(vegetablesConfig.getPotato());
+        vegetables.setGreenpepper(vegetablesConfig.getGreenpepper());
+        return vegetables;
     }
 }
